@@ -1,0 +1,74 @@
+/* CSS code for small responsiveness */
+
+/* Target small screens */
+@media screen and (max-width: 570px) {
+
+    .intro>div {
+        padding-left: 8vw;
+        font-size: 5vw;
+    }
+
+    .intro {
+        margin-top: 5vh;
+    }
+    .Heading-project{
+        font-size: 5vw;
+    }
+
+    .card{
+        height: 39vh;
+        margin-left: 14px;
+    }
+    .card-img-top{
+        height: 18vh;
+    }
+}
+
+/* CSS media query for screen width between 570px and 982px */
+
+@media screen and (min-width: 570px) and (max-width: 982px) {
+
+    .intro {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        margin-top: 2vh;
+    }
+
+    .card {
+        height: 40vh;
+    }
+
+    .card-img-top {
+        height: 22vh;
+    }
+    .Heading-project{
+        font-size: 5vw;
+    }
+}
+
+/* ONLY FOR IPHONE SE  */
+
+@media screen and (max-width: 376px) {
+
+    .intro>div {
+        padding-left: 8vw;
+        font-size: 5vw;
+    }
+
+    .intro {
+        margin-top: 5vh;
+    }
+    .Heading-project{
+        font-size: 5vw;
+    }
+
+    .card{
+        height: 44vh;
+        margin-left: 14px;
+    }
+    .card-img-top{
+        height: 18vh;
+    }
+}
