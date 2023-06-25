@@ -3,6 +3,10 @@
 /* Target small screens */
 @media screen and (max-width: 570px) {
 
+    .navbar-brand {
+        width: 4vw;
+    }
+
     .intro>div {
         padding-left: 8vw;
         font-size: 5vw;
@@ -11,15 +15,19 @@
     .intro {
         margin-top: 5vh;
     }
-    .Heading-project{
+
+    .Heading-project {
         font-size: 5vw;
     }
 
-    .card{
+    .card {
         height: 39vh;
+        width: 35.2vw !important;
         margin-left: 14px;
     }
-    .card-img-top{
+
+    .card-img-top {
+        width: 35vw !important;
         height: 18vh;
     }
 }
@@ -27,6 +35,10 @@
 /* CSS media query for screen width between 570px and 982px */
 
 @media screen and (min-width: 570px) and (max-width: 982px) {
+
+    .navbar-brand {
+        width: 4vw;
+    }
 
     .intro {
         margin-top: 5vh;
@@ -37,13 +49,16 @@
     }
 
     .card {
+        width: 34.2vw !important;
         height: 40vh;
     }
 
     .card-img-top {
+        width: 34vw !important;
         height: 22vh;
     }
-    .Heading-project{
+
+    .Heading-project {
         font-size: 5vw;
     }
 }
@@ -56,19 +71,24 @@
         padding-left: 8vw;
         font-size: 5vw;
     }
+    .btn{
+        font-weight: 200!important;
+    }
 
     .intro {
         margin-top: 5vh;
     }
-    .Heading-project{
+
+    .Heading-project {
         font-size: 5vw;
     }
 
-    .card{
+    .card {
         height: 44vh;
         margin-left: 14px;
     }
-    .card-img-top{
+
+    .card-img-top {
         height: 18vh;
     }
 }
