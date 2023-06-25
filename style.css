@@ -1,34 +1,37 @@
-
-body{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(1, 1, 35)!important;
+html {
+    scroll-behavior: smooth;
 }
 
-.font-ubuntu{
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(1, 1, 35) !important;
+}
+
+.font-ubuntu {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar{
+.navbar {
     font-family: 'Ubuntu', sans-serif;
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 
-p{
+p {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
-.intro{
+.intro {
     margin-top: 10vh;
     font-size: 3.7vw;
 }
 
-.intro img{
+.intro img {
     width: 35vw;
 }
 
-.gif{
+.gif {
     display: flex;
     justify-content: center;
 }
@@ -41,47 +44,50 @@ p{
     margin: 60px 0px;
 }
 
-.card{
+.card {
     transition: ease all 0.5s;
-    width: 16rem!important;
+    width: 16rem !important;
     overflow: hidden;
     /* z-index: 1; */
 }
 
-.card-img-top{
+.card-img-top {
     padding: 4px;
-    height: 29vh;
+    height: 42vh;
 }
 
-.card-img-top,.card-body{
-    z-index: 1!important;
+.card-img-top,
+.card-body {
+    z-index: 1 !important;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-20px);
-    box-shadow: white!important;
+    box-shadow: white !important;
 }
 
-.animation::before{
+.animation::before {
     content: '';
     position: absolute;
     width: 200px;
     height: 574px;
     left: 27px;
     top: -87px;
-    background: linear-gradient(#00e5ff,#b400fb);
+    background: linear-gradient(#00e5ff, #b400fb);
     animation: animate 10s linear infinite;
 }
+
 @keyframes animate {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
 
-.card::after{
+.card::after {
     content: '';
     position: absolute;
     inset: 2px;
@@ -89,6 +95,14 @@ p{
     border-radius: 0px;
 }
 
-.btn-website{
+.btn-website {
     margin-top: 2vh;
+}
+
+a.socials img {
+    transition: transform 0.3s;
+}
+
+a.socials img:hover {
+    transform: translateY(-10px);
 }
